@@ -59,5 +59,7 @@ dev/
 .env.local
 sanity.js
 typings.d.ts
-
+backend/sanity.config.js
+backend/schemas/index.js
+*.zip
 ###############################

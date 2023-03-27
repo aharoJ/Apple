@@ -30,6 +30,14 @@ export default defineField({
       type: 'string',
       validation: (Rule) => Rule.required(),
     }),
+
+    // Description
+    defineField({
+      name: 'descriptionnn',
+      title: 'Description',
+      type: 'string',
+    }),
+    
     // Slug
     defineField({
       name: 'slug',
