@@ -1,7 +1,7 @@
 import {AssetSource, defineConfig, isDev} from 'sanity'
 
 import {deskTool} from 'sanity/desk'
-import {schemaTypes} from './schemas'
+import {schemaTypes} from './schemas';
 import {structure} from './desk'
 
 import {visionTool} from '@sanity/vision'

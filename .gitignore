@@ -55,4 +55,9 @@ next-env.d.ts
 # Ignore the "dev" folder
 dev/
 
+# Cant expose this to the pulic 
+.env.local
+sanity.js
+typings.d.ts
+
 ###############################
