@@ -39,9 +39,6 @@ next-env.d.ts
 
 
 ######### JS ignore #########
-# pages/index.tsx
-# pages/_app.tsx
-# pages/_document.tsx
 
 # ignore ".trash" directory
 /.trash
