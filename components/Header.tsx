@@ -8,9 +8,8 @@ import {
   UserIcon,
 } from "@heroicons/react/outline";
 
-const Header = () => 
-{
-  const session= false;
+const Header = () => {
+  const session = false;
   return (
     <header className="sticky z-30 flex w-full items-center justify-between bg-[#E7ECEE] p-4">
       <div className="flex items-center justify-center md:w-1/5">
@@ -43,28 +42,23 @@ const Header = () =>
             <ShoppingBagIcon className="headerIcon" />
           </div>
         </Link>
-        {session ? 
-        (
+        {session ? (
           <Image
-          src={ 
-           // session.user?.image ||
-            "https"
-          }
-          alt=''
-          className="cursor-pointer rounded-full"
-          width={34}
-          height={34}
+            src={
+              // session.user?.image ||
+              "https"
+            }
+            alt=""
+            className="cursor-pointer rounded-full"
+            width={34}
+            height={34}
           />
-        ) 
-        : 
-        (
-          <UserIcon className="headerIcon" 
-          //onClick={()=> signIn()}
+        ) : (
+          <UserIcon
+            className="headerIcon"
+            //onClick={()=> signIn()}
           />
-          
-        )
-        }
-        
+        )}
       </div>
     </header>
   );
