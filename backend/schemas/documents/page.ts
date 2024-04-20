@@ -37,7 +37,7 @@ export default defineField({
       title: 'Description',
       type: 'string',
     }),
-    
+
     // Slug
     defineField({
       name: 'slug',
