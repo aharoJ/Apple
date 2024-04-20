@@ -1,5 +1,5 @@
 # Apple Redesign 
-
+![](public/aharoJ_v1.png)
 
 # How To Run 
 
